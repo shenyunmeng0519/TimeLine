@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_activity_image_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF282828"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_activity_image_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_progress_activity_image_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_progress_linear_layout_all"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@+id/progressbar_activity_image_detail"
+                    style="@style/style_progressbar_custom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:max="100"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/textview_percent_activity_image_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textview_activity_baby_info_avatar_clip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在加载图片..."
+                android:textColor="@android:color/white"
+                android:textSize="14.3dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_number_activity_image_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="60dp"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+</LinearLayout>

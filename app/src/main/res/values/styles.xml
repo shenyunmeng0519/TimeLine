@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="style_progressbar_custom">
+        <item name="android:indeterminateDrawable">@drawable/bg_progress_bar_all</item>
+        <item name="android:minWidth">25dp</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:maxWidth">45dp</item>
+        <item name="android:maxHeight">45dp</item>
+    </style>
+
+    <style name="custom_style_progress_bar_view_custom_video_player">
+        <item name="android:maxWidth">43.0dip</item>
+        <item name="android:maxHeight">43.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/anim_loading_video</item>
+        <item name="android:minWidth">43.0dip</item>
+        <item name="android:minHeight">43.0dip</item>
+    </style>
+
+</resources>

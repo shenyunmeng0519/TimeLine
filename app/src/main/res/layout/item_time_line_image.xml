@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlyaout_image_item_time_line_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_01_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/view_line_01_time_line_image"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_02_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/view_line_02_time_line_image"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_03_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line_07_time_line_image"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_04_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/view_line_03_time_line_image"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_05_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/view_line_04_time_line_image"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_06_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line_08_time_line_image"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_07_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/view_line_05_time_line_image"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_08_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/view_line_06_time_line_image"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.yuzhentao.studioprojecttimeline.view.TimeLineSquaredImageView
+            android:id="@+id/imageview_09_item_time_line_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+</LinearLayout>
